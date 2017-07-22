@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gdzie jest partia Razem?</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styl.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+        $('button').ready(function(){
+            $("#hide").click(function(){
+                $("#first_view").hide();
+            });
+            $("#hide").click(function(){
+                $("#next_view").show();
+            });
+            });
+            </script>
+	</head>
+
+    <body>
+        <div id="first_view">
+                <h1>
+                Gdzie jest partia Razem?
+                </h1>
+            <button id="hide">
+                Kliknij, by dowiedzieć się, gdzie jest partia Razem.
+            </button>
+        </div>
+
+        <div id="next_view">
+                <h1>
+                W DUPIE JAK MY WSZYSCY
+                </h1>
+                <p>
+                    A tak naprawdę na demonstracjach organizowanych przez <a href="http://lancuchswiatla.pl/" target="_blank">Akcję Demokrację</a>, <a href="https://www.ruchkod.pl/" target="_blank">KOD</a> i inne organizacje w całej Polsce. Leży Ci na sercu medialna widoczność Razem? Możesz pomóc <a href="http://partiarazem.pl/dolacz/" target="_blank">osobowo</a> albo <a href="https://wesprzyj.partiarazem.pl/" target="_blank">finansowo</a>.<br>
+                    Leży Ci na sercu porządek prawny w Polsce? Angażuj się jak możesz, zanim będzie za późno.
+
+                </p>
+                <p class="small">
+                    Strona nie jest oficjalnym materiałem partii Razem.
+                </p>
+
+        </div>
+    </body>
+</html>
